@@ -48,11 +48,11 @@ RUN \
         /tmp/nginxproxymanager.tar.gz \
         --strip 1 -C /app \
     \
-    && sed -i "s#canShow('streams')#false#g" \
+    # && sed -i "s#canShow('streams')#false#g" \
         /app/frontend/js/app/ui/menu/main.ejs \
-    && sed -i "s#canShow('streams')#false#g" \
+    # && sed -i "s#canShow('streams')#false#g" \
         /app/frontend/js/app/dashboard/main.ejs \
-    && sed -i "s#, 'streams',#,#g" \
+    # && sed -i "s#, 'streams',#,#g" \
         /app/frontend/js/app/user/permissions.ejs \
     \
     && sed -i "s#6.0.1#8.0.0#g" \
