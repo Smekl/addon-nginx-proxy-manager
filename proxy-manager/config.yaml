@@ -1,7 +1,7 @@
 ---
-name: Nginx Proxy Manager
+name: Nginx Proxy Manager With Streams
 version: dev
-slug: nginxproxymanager
+slug: nginxproxymanagerstreams
 description: Manage Nginx proxy hosts with a simple, powerful interface
 url: https://github.com/hassio-addons/addon-nginx-proxy-manager
 codenotary: codenotary@frenck.dev
