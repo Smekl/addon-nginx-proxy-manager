@@ -1,6 +1,6 @@
 ---
 name: Nginx Proxy Manager With Streams
-version: 0.0.2
+version: 0.0.3
 slug: nginxproxymanagerstreams
 description: Manage Nginx proxy hosts with a simple, powerful interface
 url: https://github.com/Smekl/addon-nginx-proxy-manager

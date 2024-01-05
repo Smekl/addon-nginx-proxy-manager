@@ -54,7 +54,7 @@ RUN \
     #    /app/frontend/js/app/dashboard/main.ejs \
     # && sed -i "s#, 'streams',#,#g" \
     #    /app/frontend/js/app/user/permissions.ejs \
-    \
+    #\
     && sed -i "s#6.0.1#8.0.0#g" \
         /app/frontend/package.json \
     && sed -i "s#10.2.0#10.4.1#g" \
@@ -142,7 +142,7 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Franck Nijhof <frenck@addons.community>" \
+    maintainer="Smekl" \
     org.opencontainers.image.title="${BUILD_NAME}" \
     org.opencontainers.image.description="${BUILD_DESCRIPTION}" \
     org.opencontainers.image.vendor="Home Assistant Community Add-ons" \
