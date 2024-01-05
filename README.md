@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Nginx Proxy Manager
+# Home Assistant Community Add-on: Nginx Proxy Manager With Streams
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
