@@ -3,7 +3,7 @@ name: Nginx Proxy Manager With Streams
 version: dev
 slug: nginxproxymanagerstreams
 description: Manage Nginx proxy hosts with a simple, powerful interface
-url: https://github.com/hassio-addons/addon-nginx-proxy-manager
+url: https://github.com/Smekl/addon-nginx-proxy-manager
 codenotary: codenotary@frenck.dev
 webui: http://[HOST]:[PORT:81]
 init: false
